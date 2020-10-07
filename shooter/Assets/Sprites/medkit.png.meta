@@ -1,0 +1,2084 @@
+fileFormatVersion: 2
+guid: 3429c645f757a0548bf0c1a05551de0b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 965360322618789697
+    second: medkit_0
+  - first:
+      213: 7856676115516184709
+    second: medkit_1
+  - first:
+      213: -6906966648467250662
+    second: medkit_2
+  - first:
+      213: -7069047413216729483
+    second: medkit_3
+  - first:
+      213: 1411450160446416338
+    second: medkit_4
+  - first:
+      213: -1414245577607095105
+    second: medkit_5
+  - first:
+      213: 9045570273197166431
+    second: medkit_6
+  - first:
+      213: -2596708457548458287
+    second: medkit_7
+  - first:
+      213: 5350003418730394674
+    second: medkit_8
+  - first:
+      213: 8006283847068387388
+    second: medkit_9
+  - first:
+      213: -1544682815415697942
+    second: medkit_10
+  - first:
+      213: -3809243290889246770
+    second: medkit_11
+  - first:
+      213: -350896201081166164
+    second: medkit_12
+  - first:
+      213: -1021020233549041874
+    second: medkit_13
+  - first:
+      213: 8710637627747243075
+    second: medkit_14
+  - first:
+      213: 9187919780832488155
+    second: medkit_15
+  - first:
+      213: 6620969552958684876
+    second: medkit_16
+  - first:
+      213: 3296355229797358782
+    second: medkit_17
+  - first:
+      213: -4681724654040454079
+    second: medkit_18
+  - first:
+      213: -6886534259580185686
+    second: medkit_19
+  - first:
+      213: 2303951146316846575
+    second: medkit_20
+  - first:
+      213: 651990393074475453
+    second: medkit_21
+  - first:
+      213: -3888371976294487073
+    second: medkit_22
+  - first:
+      213: -2667740304780483270
+    second: medkit_23
+  - first:
+      213: -6457675153483376433
+    second: medkit_24
+  - first:
+      213: -7404385671965527591
+    second: medkit_25
+  - first:
+      213: 625120285033684107
+    second: medkit_26
+  - first:
+      213: -2417817804961110988
+    second: medkit_27
+  - first:
+      213: 8593761441305619090
+    second: medkit_28
+  - first:
+      213: -2617692199881466583
+    second: medkit_29
+  - first:
+      213: -2333939045407543004
+    second: medkit_30
+  - first:
+      213: -4712943357526475021
+    second: medkit_31
+  - first:
+      213: 3408088068204842989
+    second: medkit_32
+  - first:
+      213: 5968411842185832682
+    second: medkit_33
+  - first:
+      213: 3601432685192632639
+    second: medkit_34
+  - first:
+      213: -1507844289272433630
+    second: medkit_35
+  - first:
+      213: 2578444640947019565
+    second: medkit_36
+  - first:
+      213: 3670320412948662061
+    second: medkit_37
+  - first:
+      213: 3145291451177758773
+    second: medkit_38
+  - first:
+      213: 657874591059344715
+    second: medkit_39
+  - first:
+      213: 8067859504995249147
+    second: medkit_40
+  - first:
+      213: 6707151362696230383
+    second: medkit_41
+  - first:
+      213: -9126532214414017669
+    second: medkit_42
+  - first:
+      213: -1633278327585240085
+    second: medkit_43
+  - first:
+      213: 3352854385991355722
+    second: medkit_44
+  - first:
+      213: 7880017505675645977
+    second: medkit_45
+  - first:
+      213: 4842124591880774682
+    second: medkit_46
+  - first:
+      213: -1326482901518742111
+    second: medkit_47
+  - first:
+      213: 7065325017468911636
+    second: medkit_48
+  - first:
+      213: -8173470391662552092
+    second: medkit_49
+  - first:
+      213: 137190555934081829
+    second: medkit_50
+  - first:
+      213: 2522341649947537082
+    second: medkit_51
+  - first:
+      213: 5549078648507859254
+    second: medkit_52
+  - first:
+      213: -5552870478563223147
+    second: medkit_53
+  - first:
+      213: -1525762534566292614
+    second: medkit_54
+  - first:
+      213: 8982994877673469366
+    second: medkit_55
+  - first:
+      213: 8907230085904033237
+    second: medkit_56
+  - first:
+      213: 8701300403445320398
+    second: medkit_57
+  - first:
+      213: 1705447542347050008
+    second: medkit_58
+  - first:
+      213: -7455708387652107534
+    second: medkit_59
+  - first:
+      213: -1170169839649418840
+    second: medkit_60
+  - first:
+      213: -4233227883456160506
+    second: medkit_61
+  - first:
+      213: -997994566756913646
+    second: medkit_62
+  - first:
+      213: 4013440251345430283
+    second: medkit_63
+  - first:
+      213: -6741266598833864554
+    second: medkit_64
+  - first:
+      213: 2900860262332750246
+    second: medkit_65
+  - first:
+      213: 2557718259380853932
+    second: medkit_66
+  - first:
+      213: -5323990907826193205
+    second: medkit_67
+  - first:
+      213: 6401534071583345727
+    second: medkit_68
+  - first:
+      213: 1360426420195250075
+    second: medkit_69
+  - first:
+      213: -4953044841905711265
+    second: medkit_70
+  - first:
+      213: -8960793478738137936
+    second: medkit_71
+  - first:
+      213: 6738607090169938964
+    second: medkit_72
+  - first:
+      213: -3352471850815945679
+    second: medkit_73
+  - first:
+      213: -7499497583020485912
+    second: medkit_74
+  - first:
+      213: -1968636861755859458
+    second: medkit_75
+  - first:
+      213: -3209251207229671118
+    second: medkit_76
+  - first:
+      213: -4693822281391697008
+    second: medkit_77
+  - first:
+      213: -3077642091943041558
+    second: medkit_78
+  - first:
+      213: -4574928164324107524
+    second: medkit_79
+  - first:
+      213: -7101121064797914939
+    second: medkit_80
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 405
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: medkit_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6496
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f03f54916a56d00800000000000000
+      internalID: 965360322618789697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_1
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 6496
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58853a4fc45880d60800000000000000
+      internalID: 7856676115516184709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_2
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 6496
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12a3aa8d668520a0800000000000000
+      internalID: -6906966648467250662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_3
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 6496
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576a2d2c4d2b5ed90800000000000000
+      internalID: -7069047413216729483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_4
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 6496
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5a397517a769310800000000000000
+      internalID: 1411450160446416338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6090
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcdf81e3279f5ce0800000000000000
+      internalID: -1414245577607095105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_6
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 6090
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f00ccec32588d70800000000000000
+      internalID: 9045570273197166431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_7
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 6090
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d652927a63a6fbd0800000000000000
+      internalID: -2596708457548458287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_8
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 6090
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234fc8883c70f3a40800000000000000
+      internalID: 5350003418730394674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_9
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 6090
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3885736db80c1f60800000000000000
+      internalID: 8006283847068387388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5684
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed3f78d92f209ae0800000000000000
+      internalID: -1544682815415697942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_11
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 5684
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7a18fb869d22bc0800000000000000
+      internalID: -3809243290889246770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_12
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 5684
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6e585a3cd512bf0800000000000000
+      internalID: -350896201081166164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_13
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 5684
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fa2d6d18b94d1f0800000000000000
+      internalID: -1021020233549041874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_14
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 5684
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344960185c662e870800000000000000
+      internalID: 8710637627747243075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5278
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda2e496c5c028f70800000000000000
+      internalID: 9187919780832488155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_16
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 5278
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce77c0aab862eb50800000000000000
+      internalID: 6620969552958684876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_17
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 5278
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc929ddd910fbd20800000000000000
+      internalID: 3296355229797358782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_18
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 5278
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ceab36b3c270fb0800000000000000
+      internalID: -4681724654040454079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_19
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 5278
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa35a2cc39d1e60a0800000000000000
+      internalID: -6886534259580185686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4872
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5d1185c5749ff10800000000000000
+      internalID: 2303951146316846575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_21
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 4872
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1eb20eec55c0900800000000000000
+      internalID: 651990393074475453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_22
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 4872
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb226ef94ab90ac0800000000000000
+      internalID: -3888371976294487073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_23
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 4872
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35219cb3584afad0800000000000000
+      internalID: -2667740304780483270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_24
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 4872
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8d1c189aab166a0800000000000000
+      internalID: -6457675153483376433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4466
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1b08226765e3990800000000000000
+      internalID: -7404385671965527591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_26
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 4466
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8cd253569fdca800800000000000000
+      internalID: 625120285033684107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_27
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 4466
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434adab348f227ed0800000000000000
+      internalID: -2417817804961110988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_28
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 4466
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a6879cf7c234770800000000000000
+      internalID: 8593761441305619090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_29
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 4466
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d11c630d61cabd0800000000000000
+      internalID: -2617692199881466583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4060
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421b11fcdce2c9fd0800000000000000
+      internalID: -2333939045407543004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_31
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 4060
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fef8109cf2489eb0800000000000000
+      internalID: -4712943357526475021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_32
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 4060
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defc89c8a06fb4f20800000000000000
+      internalID: 3408088068204842989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_33
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 4060
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8a8bec2fe04d250800000000000000
+      internalID: 5968411842185832682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_34
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 4060
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39536b22fbdaf130800000000000000
+      internalID: 3601432685192632639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3654
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224b0599b9f031be0800000000000000
+      internalID: -1507844289272433630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_36
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 3654
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f18a06db978c320800000000000000
+      internalID: 2578444640947019565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_37
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 3654
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d278ba928f89fe230800000000000000
+      internalID: 3670320412948662061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_38
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 3654
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530f58e09e156ab20800000000000000
+      internalID: 3145291451177758773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_39
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 3654
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4df8da747d312900800000000000000
+      internalID: 657874591059344715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3248
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb2005797bc6ff60800000000000000
+      internalID: 8067859504995249147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_41
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 3248
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5394cd0a6941d50800000000000000
+      internalID: 6707151362696230383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_42
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 3248
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b71b03e4b085180800000000000000
+      internalID: -9126532214414017669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_43
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 3248
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb00f8b30e6559e0800000000000000
+      internalID: -1633278327585240085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_44
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 3248
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d00a4cc4bb78e20800000000000000
+      internalID: 3352854385991355722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2842
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91418a9db227b5d60800000000000000
+      internalID: 7880017505675645977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_46
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 2842
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14ac3169aea23340800000000000000
+      internalID: 4842124591880774682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_47
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 2842
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad885e34d2679de0800000000000000
+      internalID: -1326482901518742111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_48
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 2842
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4104ae07ba31d0260800000000000000
+      internalID: 7065325017468911636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_49
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 2842
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebd7c2dbfff19e80800000000000000
+      internalID: -8173470391662552092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2436
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5234df0751667e100800000000000000
+      internalID: 137190555934081829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_51
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 2436
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abeab4fdd58210320800000000000000
+      internalID: 2522341649947537082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_52
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 2436
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631040b61a9420d40800000000000000
+      internalID: 5549078648507859254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_53
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 2436
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5995c7958bd30f2b0800000000000000
+      internalID: -5552870478563223147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_54
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 2436
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7393930f0763dae0800000000000000
+      internalID: -1525762534566292614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2030
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b571ee4f320aac70800000000000000
+      internalID: 8982994877673469366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_56
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 2030
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d56bf21296dc9b70800000000000000
+      internalID: 8907230085904033237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_57
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 2030
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca425f8d9a31c870800000000000000
+      internalID: 8701300403445320398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_58
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 2030
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ca8a00187faa710800000000000000
+      internalID: 1705447542347050008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_59
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 2030
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2881539b0088890800000000000000
+      internalID: -7455708387652107534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1624
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a112dc0bb8b2cfe0800000000000000
+      internalID: -1170169839649418840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_61
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1624
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d11592bad8045c0800000000000000
+      internalID: -4233227883456160506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_62
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1624
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e2fa8aa396622f0800000000000000
+      internalID: -997994566756913646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_63
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1624
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07e2bcf4aa92b730800000000000000
+      internalID: 4013440251345430283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_64
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1624
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6904d40ceb53272a0800000000000000
+      internalID: -6741266598833864554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1218
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9d3670a0de14820800000000000000
+      internalID: 2900860262332750246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_66
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1218
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac1ded9437de7320800000000000000
+      internalID: 2557718259380853932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_67
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1218
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc3c9f1a726d16b0800000000000000
+      internalID: -5323990907826193205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_68
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1218
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c09424251d6d850800000000000000
+      internalID: 6401534071583345727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_69
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1218
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f4bce0f9431e210800000000000000
+      internalID: 1360426420195250075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 812
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5711a965ff334bb0800000000000000
+      internalID: -4953044841905711265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_71
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 812
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc2d22becdd4a380800000000000000
+      internalID: -8960793478738137936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_72
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 812
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41402822277548d50800000000000000
+      internalID: 6738607090169938964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_73
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 812
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1348e942d90a971d0800000000000000
+      internalID: -3352471850815945679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_74
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 812
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2d92aaeae6ce790800000000000000
+      internalID: -7499497583020485912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 406
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd5d4b543ffda4e0800000000000000
+      internalID: -1968636861755859458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_76
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 406
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239f416c7037673d0800000000000000
+      internalID: -3209251207229671118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_77
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 406
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09395d601813cdeb0800000000000000
+      internalID: -4693822281391697008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_78
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 406
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5e1fbc2d40a45d0800000000000000
+      internalID: -3077642091943041558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_79
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 406
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa1884d2179280c0800000000000000
+      internalID: -4574928164324107524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medkit_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 330
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c83da1d300c37d90800000000000000
+      internalID: -7101121064797914939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: abd4aac8e2928dd488ed225cab9bd550
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

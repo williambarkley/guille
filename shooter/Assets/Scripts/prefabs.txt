@@ -1,0 +1,90 @@
+Prefab list:
+-Bullet
+    Transform
+    Collider
+    Sprite
+    Rigidbody
+    Scripts:
+                Check enemy collision
+                    Destroy self
+                    Destroy enemy
+                    Give score
+                Check asteroid collision
+                    Destroy self
+                    Remove 1 life from asteroid
+                Destroy itself out of bounds
+-Big bullet
+    Transform
+    Collider
+    Sprite
+    Rigidbody
+    Scripts:
+                Check enemy collision
+                    Destroy enemy
+                    Give score
+                Check asteroid collision
+                    Destroy asteroid
+                    Give Score
+                Destroy itself out of bounds
+-Enemy
+    Transform
+    Collider
+    Sprite
+    Rigidbody
+    Scripts:
+                Follow player
+                Check player collision
+                    Remove 1 life
+                    Destroy self
+                Check asteroid collision
+                    Destroy asteroid
+                    Destroy self
+                Check enemy collision
+                    Destroy other
+                    Destroy self
+                    Give double score (one of the scripts wont execute)
+                Destroy itself out of bounds
+-Asteroid
+    Transform
+    Collider
+    Sprite
+    Rigidbody
+    Scripts:
+                Lives
+                    When 0
+                        destroy itself
+                        Give score
+                Destroy out of bounds
+-Medical kit                                                    #done
+    Transform                                                   #done
+    Collider                                                    #done
+    Sprite                                                      #done
+-Player
+    Transform                                                   #done
+    Sprite
+    Box Collider                                                #done
+    Rigidbody                                                   #done
+    Scripts:
+                Move                                            #done
+                    stop at walls                               #done
+                Shoot                                          
+                    Shoot normal
+                    Shoot big (cooldown)
+                Live system:                                    #done
+                    Keep track lives                            #done
+                    Check collision w. medkit                   #done
+                        Destroy medkit                          #done
+                        Increase HP                             #done
+                    When 0 HP, game ends.
+Spawner
+    Scripts:
+                Spawn at random position
+                    Enemies
+                    Medkits
+                    Asteroid
+                        Give random direction
+                When X have spawned, reset that specific spawner count and begin spawning more or faster
+                If game has ended, stop spawning			
+Score                                                           #done
+    We can output this to a txt file to maintain high scores :) #done
+    Input the top X from the file to display them on game       #done

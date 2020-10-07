@@ -41,4 +41,9 @@ public class HPSystem : MonoBehaviour
         else
             return false;
     }
+
+    public int showHP()
+    {
+        return HP;
+    }
 }
