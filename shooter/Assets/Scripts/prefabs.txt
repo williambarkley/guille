@@ -85,6 +85,10 @@ Spawner
                         Give random direction
                 When X have spawned, reset that specific spawner count and begin spawning more or faster
                 If game has ended, stop spawning			    
-Score                                                           #done
+Score
     We can output this to a txt file to maintain high scores :) #done
     Input the top X from the file to display them on game       #done
+    at gameover
+        save score
+            show which top yours is
+        display the top X
