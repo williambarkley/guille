@@ -1,9 +1,9 @@
 Prefab list:
 -Bullet
-    Transform
-    Collider
+    Transform                                                   #done
+    Collider                                                    #done
     Sprite
-    Rigidbody
+    Rigidbody                                                   #done
     Scripts:
                 Check enemy collision
                     Destroy self
@@ -12,12 +12,12 @@ Prefab list:
                 Check asteroid collision
                     Destroy self
                     Remove 1 life from asteroid
-                Destroy itself out of bounds
--Big bullet
-    Transform
-    Collider
+                Destroy itself out of bounds                    #done
+-Big bullet                     
+    Transform                                                   #done
+    Collider                                                    #done
     Sprite
-    Rigidbody
+    Rigidbody                                                   #done
     Scripts:
                 Check enemy collision
                     Destroy enemy
@@ -25,7 +25,7 @@ Prefab list:
                 Check asteroid collision
                     Destroy asteroid
                     Give Score
-                Destroy itself out of bounds
+                Destroy itself out of bounds                    #done
 -Enemy
     Transform
     Collider
@@ -67,9 +67,9 @@ Prefab list:
     Scripts:
                 Move                                            #done
                     stop at walls                               #done
-                Shoot                                          
-                    Shoot normal
-                    Shoot big (cooldown)
+                Shoot                                           #done
+                    Shoot normal                                #done
+                    Shoot big (cooldown)                        #done
                 Live system:                                    #done
                     Keep track lives                            #done
                     Check collision w. medkit                   #done
@@ -84,7 +84,7 @@ Spawner
                     Asteroid
                         Give random direction
                 When X have spawned, reset that specific spawner count and begin spawning more or faster
-                If game has ended, stop spawning			
+                If game has ended, stop spawning			    
 Score                                                           #done
     We can output this to a txt file to maintain high scores :) #done
     Input the top X from the file to display them on game       #done

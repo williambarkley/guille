@@ -11,10 +11,17 @@ public static class Functions
 {
     static System.Random rng = new System.Random();
 
-    public const int MAX_X = 3;
-    public const int MIN_X = -3;
-    public const int MAX_Y = 3;
-    public const int MIN_Y = -3;
+    public const float MAX_X = 10;
+    public const float MIN_X = -10;
+    public const float MAX_Y = 5.5f;
+    public const float MIN_Y = -5.5f;
+    public const float LIMIT_OFFSET = 2;
+
+    public const int MAX_HP = 3;
+    public const int ASTEROID_HP = 4;
+
+    public const float BULLET_SPEED = 10;
+    public const float COOLDOWN = 10;
 
     //Algorithm to order an array of numbers
     public static void orderGTL<T>(ref T[] arr)
@@ -98,5 +105,11 @@ public static class Functions
     public static int rand(int min, int max)
     {
         return rng.Next(min, max);
+    }
+
+    public static float vectorLenght(Vector2 vector)
+    {
+        float result = (float)Math.Sqrt(Math.Pow(vector.x, 2) + Math.Pow(vector.y, 2));
+        return result;
     }
 }
