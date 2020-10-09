@@ -6,15 +6,16 @@ using System.IO;
 
 public class Scores : MonoBehaviour
 {
-    const string SCORE_FILE = "HighScores.txt";
-
     public TextMeshProUGUI ScoreText;
 
-    // Start is called before the first frame update
     void Start()
     {
-        if (!File.Exists(SCORE_FILE))
-            Functions.createFile(SCORE_FILE, "Scores: #Try not to touch this file :)");
+        //If the file does not exist, we create it
+        if (!File.Exists(Constant.SCORE_FILE))
+            Functions.createFile(Constant.SCORE_FILE, "Scores: #Try not to touch this file :)");
+
+        //We initialize the score
+        Constant.actual_score = 0;
     }
 
     //This function displays the top highscores
@@ -24,7 +25,7 @@ public class Scores : MonoBehaviour
         string final_text = "High Scores:";
 
         //The unprocessed lines containing score from the file
-        string[] unprocessed_lines = Functions.readFile(SCORE_FILE, 1);
+        string[] unprocessed_lines = Functions.readFile(Constant.SCORE_FILE, 1);
         int[] scores = new int[unprocessed_lines.Length]; //Will store the processed scores
 
         //We store the processed scores
@@ -44,6 +45,6 @@ public class Scores : MonoBehaviour
     //This function adds a highscore to the list
     public void newScore(int score)
     {
-        Functions.writeFileLine(SCORE_FILE, score.ToString());
+        Functions.writeFileLine(Constant.SCORE_FILE, score.ToString());
     }
 }

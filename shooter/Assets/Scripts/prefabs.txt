@@ -9,9 +9,9 @@ Prefab list:
                     Destroy self
                     Destroy enemy
                     Give score
-                Check asteroid collision
-                    Destroy self
-                    Remove 1 life from asteroid
+                Check asteroid collision                        #done
+                    Destroy self                                #done
+                    Remove 1 life from asteroid                 #done
                 Destroy itself out of bounds                    #done
 -Big bullet                     
     Transform                                                   #done
@@ -22,9 +22,9 @@ Prefab list:
                 Check enemy collision
                     Destroy enemy
                     Give score
-                Check asteroid collision
-                    Destroy asteroid
-                    Give Score
+                Check asteroid collision                        #done        
+                    Destroy asteroid                            #done
+                    Give Score                                  #done
                 Destroy itself out of bounds                    #done
 -Enemy
     Transform
@@ -45,16 +45,16 @@ Prefab list:
                     Give double score (one of the scripts wont execute)
                 Destroy itself out of bounds
 -Asteroid
-    Transform
-    Collider
-    Sprite
-    Rigidbody
-    Scripts:
-                Lives
-                    When 0
-                        destroy itself
-                        Give score
-                Destroy out of bounds
+    Transform                                                   #done
+    Collider                                                    #done
+    Sprite                                                      
+    Rigidbody                                                   #done
+    Scripts:                                                    #done
+                Lives                                           #done
+                    When 0                                      #done
+                        destroy itself                          #done
+                        Give score                              #done
+                Destroy out of bounds                           #done
 -Medical kit                                                    #done
     Transform                                                   #done
     Collider                                                    #done
@@ -76,6 +76,9 @@ Prefab list:
                         Destroy medkit                          #done
                         Increase HP                             #done
                     When 0 HP, game ends.
+                Check asteroid collision                        #done
+                    Destroy other                               #done              
+                    Remove 1 HP                                 #done
 Spawner
     Scripts:
                 Spawn at random position
@@ -92,3 +95,12 @@ Score
         save score
             show which top yours is
         display the top X
+        go to title screen
+Title screen
+    Play
+    Tutorial
+        Controls
+        Mechanics
+    Top scores
+    Exit
+Background

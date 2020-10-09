@@ -4,25 +4,34 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public Rigidbody2D rb;
-    float speed = Functions.BULLET_SPEED;
+    protected float speed;
+    Rigidbody2D rb;
+
+    //it will remain constant
     Vector2 direction;
 
-    // Update is called once per frame
+    private void Start()
+    {
+        //We get components
+        rb = GetComponent<Rigidbody2D>();
+    }
+
     void Update()
     {
+        //Moves at constant speed and direction
         rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
 
-        if (rb.position.x > Functions.MAX_X + Functions.LIMIT_OFFSET
-         || rb.position.x < Functions.MIN_X - Functions.LIMIT_OFFSET
-         || rb.position.y > Functions.MAX_Y + Functions.LIMIT_OFFSET
-         || rb.position.y < Functions.MIN_Y - Functions.LIMIT_OFFSET)
+        //Destroy if out of bounds
+        if (rb.position.x > Constant.MAX_X + Constant.LIMIT_OFFSET
+         || rb.position.x < Constant.MIN_X - Constant.LIMIT_OFFSET
+         || rb.position.y > Constant.MAX_Y + Constant.LIMIT_OFFSET
+         || rb.position.y < Constant.MIN_Y - Constant.LIMIT_OFFSET)
                 Destroy(gameObject);
     }
 
+    //To determine direction at prefab creation
     public void setDirection(Vector2 direction_)
     {
         direction = direction_;
     }
-
 }

@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Medkit
+  - Asteroid
   layers:
   - Default
   - TransparentFX

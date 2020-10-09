@@ -10,28 +10,29 @@ public class HPSystem : MonoBehaviour
     //Debug
     public TextMeshProUGUI HPText;
 
-    // Start is called before the first frame update
     void Start()
     {
-        HP = Functions.MAX_HP;
+        //We initialize values
+        HP = Constant.MAX_HP;
     }
 
-    // Update is called once per frame
     void Update()
     {
+        //End game at player death
         if (playerDead())
             Debug.Log("Game Over");
         //game end
 
-        if (HP > Functions.MAX_HP)
-            HP = Functions.MAX_HP;
+        //HP cannot go over maximum
+        if (HP > Constant.MAX_HP)
+            HP = Constant.MAX_HP;
 
         //Debug
         if (Input.GetKeyDown("space"))
             removeHP();
         if (Input.GetKeyDown("j"))
             addHP();
-        HPText.text = showHP().ToString();
+        HPText.text = HP.ToString();
     }
 
     public void removeHP()
@@ -44,16 +45,12 @@ public class HPSystem : MonoBehaviour
         HP++;
     }
 
+    //If no more lives, returns true
     bool playerDead()
     {
         if (HP <= 0)
             return true;
         else
             return false;
-    }
-
-    public int showHP()
-    {
-        return HP;
     }
 }
