@@ -97,6 +97,7 @@ Score
         display the top X
         go to title screen
 Title screen
+    Music
     Play
     Tutorial
         Controls
@@ -104,3 +105,10 @@ Title screen
     Top scores
     Exit
 Background
+Level Music
+Sound Effects
+    Bullet
+    Big Bullet
+    Asteroid destroy
+    Enemy destroy
+    Player death
