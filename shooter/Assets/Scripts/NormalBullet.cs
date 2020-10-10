@@ -8,6 +8,9 @@ public class NormalBullet : Bullet
     {
         //We initialize values
         speed = Constant.BULLET_SPEED;
+
+        //We get components
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

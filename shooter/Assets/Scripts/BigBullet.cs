@@ -8,6 +8,9 @@ public class BigBullet : Bullet
     {
         //We initialize values
         speed = Constant.BIG_BULLET_SPEED;
+
+        //We get components
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

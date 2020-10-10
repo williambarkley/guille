@@ -5,16 +5,10 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     protected float speed;
-    Rigidbody2D rb;
+    protected Rigidbody2D rb;
 
     //it will remain constant
     Vector2 direction;
-
-    private void Start()
-    {
-        //We get components
-        rb = GetComponent<Rigidbody2D>();
-    }
 
     void Update()
     {

@@ -8,10 +8,10 @@ public class Player : MonoBehaviour
     //Components from this gameObject
     Rigidbody2D rb;
     HPSystem HP;
-    NormalBullet bullet;
-    BigBullet BigBullet;
 
     //Components from other objects
+    public NormalBullet bullet;
+    public BigBullet BigBullet;
     public AudioSource medkit;
     //Debug
     public TextMeshProUGUI cooldown;
@@ -133,7 +133,5 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         HP = GetComponent<HPSystem>();
-        bullet = GetComponent<NormalBullet>();
-        BigBullet = GetComponent<BigBullet>();
     }
 }

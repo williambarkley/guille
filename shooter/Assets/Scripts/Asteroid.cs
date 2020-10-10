@@ -13,6 +13,9 @@ public class Asteroid : Bullet
         speed = randomSpeed();
         HP = Constant.ASTEROID_HP;
 
+        //We get components
+        rb = GetComponent<Rigidbody2D>();
+
         //We give the asteroid a random rotation
         transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y, Functions.rand(0, 360));
     }

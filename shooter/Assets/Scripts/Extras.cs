@@ -13,10 +13,10 @@ public static class Constant
 
     public const string SCORE_FILE = "HighScores.txt";
 
-    public const float MAX_X = 8.5f;
-    public const float MIN_X = -8.5f;
-    public const float MAX_Y = 4.5f;
-    public const float MIN_Y = -4.5f;
+    public const float MAX_X = 15;
+    public const float MIN_X = -15;
+    public const float MAX_Y = 15;
+    public const float MIN_Y = -15;
     public const float LIMIT_OFFSET = 2;
 
     public const int MAX_HP = 3;
@@ -29,6 +29,11 @@ public static class Constant
     public const float ASTEROID_SPEED = 5;
     public const float ASTEROID_SPEED_VARIATION = 0.5f;
     public const int ASTEROID_SCORE = 50;
+
+    public const float CAM_MAX_X = 6.5f;
+    public const float CAM_MIN_X = -6.5f;
+    public const float CAM_MAX_Y = 10.5f;
+    public const float CAM_MIN_Y = -10.5f;
 }
 
 //This class stores some useful functions
