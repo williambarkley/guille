@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class HPSystem : MonoBehaviour
 {
@@ -20,8 +21,7 @@ public class HPSystem : MonoBehaviour
     {
         //End game at player death
         if (playerDead())
-            Debug.Log("Game Over");
-        //game end
+            SceneManager.LoadScene(Constant.GAMEOVER_SCENE);
 
         //HP cannot go over maximum
         if (HP > Constant.MAX_HP)

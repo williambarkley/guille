@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using System.IO;
+using System;
 
 public class Scores : MonoBehaviour
 {
@@ -13,27 +14,15 @@ public class Scores : MonoBehaviour
         //If the file does not exist, we create it
         if (!File.Exists(Constant.SCORE_FILE))
             Functions.createFile(Constant.SCORE_FILE, "Scores: #Try not to touch this file :)");
-
-        //We initialize the score
-        Constant.actual_score = 0;
     }
 
     //This function displays the top highscores
     public void displayScores(int topSize)
     {
         //Will store the string to output
-        string final_text = "High Scores:";
+        string final_text = "High Scores:\n";
 
-        //The unprocessed lines containing score from the file
-        string[] unprocessed_lines = Functions.readFile(Constant.SCORE_FILE, 1);
-        int[] scores = new int[unprocessed_lines.Length]; //Will store the processed scores
-
-        //We store the processed scores
-        for (int i = 0; i < unprocessed_lines.Length; i++)
-            scores[i] = int.Parse(unprocessed_lines[i]);
-
-        //We order the results
-        Functions.orderGTL(ref scores);
+        int[] scores = ScoreList();
 
         //We make the final string
         for (int i = 0; i < scores.Length && i < topSize; i++)
@@ -46,5 +35,29 @@ public class Scores : MonoBehaviour
     public void newScore(int score)
     {
         Functions.writeFileLine(Constant.SCORE_FILE, score.ToString());
+    }
+
+    public int rank()
+    {
+        int[] scores = ScoreList();
+        int rank = Array.IndexOf(scores, Constant.actual_score) + 1;
+
+        return rank;
+    }
+
+    int[] ScoreList()
+    {
+        //The unprocessed lines containing score from the file
+        string[] unprocessed_lines = Functions.readFile(Constant.SCORE_FILE, 1);
+        int[] scores = new int[unprocessed_lines.Length]; //Will store the processed scores
+
+        //We store the processed scores
+        for (int i = 0; i < unprocessed_lines.Length; i++)
+            scores[i] = int.Parse(unprocessed_lines[i]);
+
+        //We order the results
+        Functions.orderGTL(ref scores);
+
+        return scores;
     }
 }

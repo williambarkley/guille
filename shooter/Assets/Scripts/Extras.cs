@@ -12,6 +12,9 @@ public static class Constant
     public static int actual_score;
 
     public const string SCORE_FILE = "HighScores.txt";
+    public const string MENU_SCENE = "Title";
+    public const string GAME_SCENE = "Game";
+    public const string GAMEOVER_SCENE = "GameOver";
 
     public const float MAX_X = 15;
     public const float MIN_X = -15;

@@ -64,7 +64,7 @@ Prefab list:
     Sprite
     Box Collider                                                #done
     Rigidbody                                                   #done
-    Scripts:
+    Scripts:                                                    #done
                 Move                                            #done
                     stop at walls                               #done
                 Shoot                                           #done
@@ -75,7 +75,7 @@ Prefab list:
                     Check collision w. medkit                   #done
                         Destroy medkit                          #done
                         Increase HP                             #done
-                    When 0 HP, game ends.
+                    When 0 HP, game ends.                       #done
                 Check asteroid collision                        #done
                     Destroy other                               #done              
                     Remove 1 HP                                 #done
@@ -91,19 +91,18 @@ Spawner
 Score
     We can output this to a txt file to maintain high scores :) #done
     Input the top X from the file to display them on game       #done
-    at gameover
-        save score
-            show which top yours is
-        display the top X
-        go to title screen
+    at gameover                                                 #done
+        save score                                              #done
+            show which top yours is                             #done
+        go to title screen                                      #done
 Title screen
     Music
-    Play
-    Tutorial
+    Play                                                        #done
+    Tutorial                                                    #done
         Controls
         Mechanics
-    Top scores
-    Exit
+    Top scores                                                  #done
+    Exit                                                        #done
 Background
 Level Music
 Sound Effects
@@ -112,3 +111,7 @@ Sound Effects
     Asteroid destroy
     Enemy destroy
     Player death
+HUD
+    PlayerHP Visuals
+    Score Visuals
+    Cooldown Visuals
