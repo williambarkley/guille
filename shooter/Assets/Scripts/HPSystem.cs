@@ -6,6 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class HPSystem : MonoBehaviour
 {
+    SpriteRenderer player;
+    public bool invulnerable;
+    int invulVisuals;
+    float timer;
+
     int HP;
 
     //Debug
@@ -15,6 +20,11 @@ public class HPSystem : MonoBehaviour
     {
         //We initialize values
         HP = Constant.MAX_HP;
+        invulnerable = false;
+        timer = 0;
+        invulVisuals = 0;
+
+        player = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -27,17 +37,34 @@ public class HPSystem : MonoBehaviour
         if (HP > Constant.MAX_HP)
             HP = Constant.MAX_HP;
 
-        //Debug
-        if (Input.GetKeyDown("space"))
-            removeHP();
-        if (Input.GetKeyDown("j"))
-            addHP();
         HPText.text = HP.ToString();
+
+        if(invulnerable)
+        {
+            if (timer < Constant.INVULNERABILITY_TIME)
+                timer += Time.deltaTime;
+            else
+            {
+                timer = 0;
+                invulVisuals = 0;
+                invulnerable = false;
+            }
+
+            invulVisuals = Mathf.RoundToInt(timer / 0.2f);
+            if (invulVisuals % 2 == 0)
+                player.color = new Color(1, 1, 1, .3f);
+            else
+                player.color = new Color(1, 1, 1, 1);
+
+        }
+        else
+            player.color = new Color(1, 1, 1, 1);
     }
 
     public void removeHP()
     {
         HP--;
+        invulnerable = true;
     }
 
     public void addHP()

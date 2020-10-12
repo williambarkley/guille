@@ -6,12 +6,15 @@ public class Asteroid : Bullet
 {
     //The ammount of bullets it will resist
     int HP;
+    int scale;
 
     private void Start()
     {
         //We initialize values
         speed = randomSpeed();
-        HP = Constant.ASTEROID_HP;
+        scale = Functions.rand(1, 5);
+        HP = Constant.ASTEROID_HP + scale;
+        transform.localScale = new Vector3(scale, scale, 1);
 
         //We get components
         rb = GetComponent<Rigidbody2D>();
@@ -20,8 +23,10 @@ public class Asteroid : Bullet
         transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y, Functions.rand(0, 360));
     }
 
-    private void Update()
+    public override void Update()
     {
+        base.Update();
+
         if(HP <= 0)
         {
             asteroid_score();

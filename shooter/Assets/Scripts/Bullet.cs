@@ -10,7 +10,7 @@ public class Bullet : MonoBehaviour
     //it will remain constant
     Vector2 direction;
 
-    void Update()
+    public virtual void Update()
     {
         //Moves at constant speed and direction
         rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);

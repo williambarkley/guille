@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Medkit
   - Asteroid
+  - Enemy
   layers:
   - Default
   - TransparentFX

@@ -1,53 +1,53 @@
 Prefab list:
--Bullet
+-Bullet                                                         #done
     Transform                                                   #done
     Collider                                                    #done
-    Sprite
+    Sprite                                                      #done
     Rigidbody                                                   #done
-    Scripts:
-                Check enemy collision
-                    Destroy self
-                    Destroy enemy
-                    Give score
+    Scripts:                                                    #done
+                Check enemy collision                           #done
+                    Destroy self                                #done
+                    Destroy enemy                               #done
+                    Give score                                  #done
                 Check asteroid collision                        #done
                     Destroy self                                #done
                     Remove 1 life from asteroid                 #done
                 Destroy itself out of bounds                    #done
--Big bullet                     
+-Big bullet                                                     #done
     Transform                                                   #done
     Collider                                                    #done
-    Sprite
+    Sprite                                                      #done
     Rigidbody                                                   #done
-    Scripts:
-                Check enemy collision
-                    Destroy enemy
-                    Give score
+    Scripts:                                                    #done
+                Check enemy collision                           #done
+                    Destroy enemy                               #done
+                    Give score                                  #done
                 Check asteroid collision                        #done        
                     Destroy asteroid                            #done
                     Give Score                                  #done
                 Destroy itself out of bounds                    #done
--Enemy
-    Transform
-    Collider
-    Sprite
-    Rigidbody
-    Scripts:
-                Follow player
-                Check player collision
-                    Remove 1 life
-                    Destroy self
-                Check asteroid collision
-                    Destroy asteroid
-                    Destroy self
-                Check enemy collision
-                    Destroy other
-                    Destroy self
-                    Give double score (one of the scripts wont execute)
-                Destroy itself out of bounds
--Asteroid
+-Enemy                                                          #done
     Transform                                                   #done
     Collider                                                    #done
-    Sprite                                                      
+    Sprite                                                      #done
+    Rigidbody                                                   #done
+    Scripts:                                                    #done
+                Follow player                                   #done
+                Check player collision                          #done
+                    Remove 1 life                               #done
+                    Destroy self                                #done
+                Check asteroid collision                        #done
+                    Destroy asteroid                            #done
+                    Destroy self                                #done
+                Check enemy collision                           #done
+                    Destroy other                               #done
+                    Destroy self                                #done
+                    Give double score (one of the scripts wont execute)
+                Destroy itself out of bounds                    #done
+-Asteroid                                                       #done
+    Transform                                                   #done
+    Collider                                                    #done
+    Sprite                                                      #done
     Rigidbody                                                   #done
     Scripts:                                                    #done
                 Lives                                           #done
@@ -59,9 +59,9 @@ Prefab list:
     Transform                                                   #done
     Collider                                                    #done
     Sprite                                                      #done
--Player
+-Player                                                         #done
     Transform                                                   #done
-    Sprite
+    Sprite                                                      #done
     Box Collider                                                #done
     Rigidbody                                                   #done
     Scripts:                                                    #done
@@ -79,16 +79,16 @@ Prefab list:
                 Check asteroid collision                        #done
                     Destroy other                               #done              
                     Remove 1 HP                                 #done
-Spawner
-    Scripts:
-                Spawn at random position
-                    Enemies
-                    Medkits
-                    Asteroid
-                        Give random direction
+Spawner                                                         #done
+    Scripts:                                                    #done
+                Spawn at random position                        #done
+                    Enemies                                     #done
+                    Medkits                                     #done
+                    Asteroid                                    #done
+                        Give random direction                   #done
                 When X have spawned, reset that specific spawner count and begin spawning more or faster
-                If game has ended, stop spawning			    
-Score
+                                                                #done
+Score                                                           #done
     We can output this to a txt file to maintain high scores :) #done
     Input the top X from the file to display them on game       #done
     at gameover                                                 #done

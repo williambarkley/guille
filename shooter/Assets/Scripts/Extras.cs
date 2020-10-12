@@ -22,6 +22,7 @@ public static class Constant
     public const float MIN_Y = -15;
     public const float LIMIT_OFFSET = 2;
 
+    public const float PLAYER_SPEED = 5;
     public const int MAX_HP = 3;
     public const int ASTEROID_HP = 4;
 
@@ -37,6 +38,15 @@ public static class Constant
     public const float CAM_MIN_X = -6.5f;
     public const float CAM_MAX_Y = 10.5f;
     public const float CAM_MIN_Y = -10.5f;
+
+    public const float ENEMY_SPEED = 20;
+    public const float ENEMY_ROTATION_SPEED = 5;
+    public const float ENEMY_LOOK_RADIUS = 15;
+    public const float ENEMY_CHASE_RADIUS = 12;
+
+    public const float MEDKIT_TIMER = 30;
+    public const int ENEMY_SCORE = 100;
+    public const float INVULNERABILITY_TIME = 1.5f;
 }
 
 //This class stores some useful functions
@@ -121,7 +131,7 @@ public static class Functions
     //Returns random number between the ones given. For int input, int output; otherwise, double output.
     public static double rand(double min, double max)
     {
-        return rng.NextDouble() * (max - min);
+        return rng.NextDouble() * (max - min) + min;
     }
     public static int rand(int min, int max)
     {
@@ -132,5 +142,14 @@ public static class Functions
     {
         float result = (float)Math.Sqrt(Math.Pow(vector.x, 2) + Math.Pow(vector.y, 2));
         return result;
+    }
+
+    public static void normalize(ref Vector2 vector)
+    {
+        if (vectorLenght(vector) == 0)
+            return;
+
+        vector.x /= vectorLenght(vector);
+        vector.y /= vectorLenght(vector);
     }
 }

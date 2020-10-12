@@ -21,5 +21,13 @@ public class NormalBullet : Bullet
             collision.GetComponent<Asteroid>().removeHP();
             Destroy(gameObject);
         }
+
+        //When colliding with enemy
+        if (collision.gameObject.tag == "Enemy")
+        {
+            Constant.actual_score += Constant.ENEMY_SCORE;
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
     }
 }

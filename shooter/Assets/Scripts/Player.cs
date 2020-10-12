@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     //Components from this gameObject
     Rigidbody2D rb;
     HPSystem HP;
+    Animator animator;
 
     //Components from other objects
     public NormalBullet bullet;
@@ -20,7 +21,7 @@ public class Player : MonoBehaviour
     //direction will store last valid movement
     Vector2 movement;
     Vector2 direction;
-    public float speed = 2f;
+    float speed;
 
     //Timer for bigBullets
     float BBulletTimer;
@@ -31,6 +32,7 @@ public class Player : MonoBehaviour
         components();
 
         //We initialize values
+        speed = Constant.PLAYER_SPEED;
         direction = new Vector2(0, 1);
         transform.rotation = Quaternion.AngleAxis(Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg, Vector3.forward);
         BBulletTimer = Constant.COOLDOWN;
@@ -57,11 +59,15 @@ public class Player : MonoBehaviour
             Destroy(collision.gameObject);
             medkit.Play();
         }
+
         //If colliding with asteroids, we destroy them and remove 1HP from the player
         if (collision.gameObject.tag == "Asteroid")
         {
-            HP.removeHP();
-            Destroy(collision.gameObject);
+            if (!HP.invulnerable)
+            {
+                HP.removeHP();
+                Destroy(collision.gameObject);
+            }
         }
     }
 
@@ -85,6 +91,11 @@ public class Player : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
+        if (Functions.vectorLenght(movement) == 0)
+            animator.SetBool("Moving", false);
+        else
+            animator.SetBool("Moving", true);
+
         //Rotation
         if (Functions.vectorLenght(movement) != 0)
         {
@@ -106,6 +117,7 @@ public class Player : MonoBehaviour
             NormalBullet instBullet = Instantiate(bullet);
             instBullet.setDirection(direction);
             instBullet.transform.position = rb.transform.position;
+            instBullet.transform.rotation = Quaternion.AngleAxis(Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg, Vector3.forward);
         }
         //Big bullet (has a cooldown)
         if (Input.GetMouseButtonDown(1) && BBulletTimer >= Constant.COOLDOWN)
@@ -113,6 +125,7 @@ public class Player : MonoBehaviour
             BigBullet instBBullet = Instantiate(BigBullet);
             instBBullet.setDirection(direction);
             instBBullet.transform.position = rb.transform.position;
+            instBBullet.transform.rotation = Quaternion.AngleAxis(Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg, Vector3.forward);
 
             //Reset the timer
             BBulletTimer = 0;
@@ -133,5 +146,6 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         HP = GetComponent<HPSystem>();
+        animator = GetComponent<Animator>();
     }
 }

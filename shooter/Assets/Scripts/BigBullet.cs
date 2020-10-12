@@ -21,5 +21,12 @@ public class BigBullet : Bullet
             collision.GetComponent<Asteroid>().asteroid_score();
             Destroy(collision.gameObject);
         }
+
+        //When colliding with enemy
+        if (collision.gameObject.tag == "Enemy")
+        {
+            Constant.actual_score += Constant.ENEMY_SCORE;
+            Destroy(collision.gameObject);
+        }
     }
 }

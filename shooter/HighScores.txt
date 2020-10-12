@@ -24,3 +24,5 @@ Scores: #Try not to touch this file :)
 0
 50
 0
+650
+0
